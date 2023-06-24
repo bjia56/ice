@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bjia56/ice/v2/internal/fakenet"
+	stunx "github.com/bjia56/ice/v2/internal/stun"
 	"github.com/pion/dtls/v2"
-	"github.com/pion/ice/v2/internal/fakenet"
-	stunx "github.com/pion/ice/v2/internal/stun"
 	"github.com/pion/logging"
 	"github.com/pion/stun"
 	"github.com/pion/turn/v2"
